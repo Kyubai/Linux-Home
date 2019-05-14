@@ -1,0 +1,37 @@
+URxvt*font: xft:Inconsolata:pixelsize=14
+URxvt*letterSpace: -1
+
+URxvt*scrollBar: true
+Urxvt*scrollBar_right: true
+URxvt*scrollBar_floating: false
+URxvt*scrollstyle: plain
+
+URxvt*saveLines: 1000
+
+#Terminal
+URxvt*background: #000000
+URxvt*foreground: #b2b2b2
+#black
+URxvt*color0: 	#000000
+URxvt*color8:	#686868
+#red
+URxvt*color1:	#b21818
+URxvt*color9:	#ff5454
+#green
+URxvt*color2:	#18b218
+URxvt*color10:	#54ff54
+#yellow
+URxvt*color3:	#b26818
+URxvt*color11:	#ffff54
+#blue
+URxvt*color4:	#1818b2
+URxvt*color12:	#5454ff
+#purple
+URxvt*color5:	#b218b2
+URxvt*color13:	#ff54ff
+#cyan
+URxvt*color6:	#18b2b2
+URxvt*color14:	#54ffff
+#white
+URxvt*color7:	#b2b2b2
+URxvt*color15:	#ffffff
