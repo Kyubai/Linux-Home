@@ -8,3 +8,7 @@ alias vdir='vdir --color=auto'
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='grep -e --color=auto'
+
+# applications
+alias telegram='telegram-desktop'
+alias vbox='virtualbox'

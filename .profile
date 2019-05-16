@@ -6,6 +6,12 @@ if [ "$BASH" ]; then
   fi
 fi
 
+#export environment variables
+export EDITOR="vim"
+export BROWSER="firefox"
+export PATH="$PATH:~/scripts"
+
 mesg n || true
 
+#launch urxvt daemon for improved multiterminaling
 urxvtd -f
