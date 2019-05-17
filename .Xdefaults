@@ -9,6 +9,11 @@ urxvt.scrollColor: Black
 urxvt.scrollBar_floating: false
 urxvt.scrollstyle: plain
 
+! border
+urxvt.externalBorder: 0
+urxvt.internalBorder: 0
+urxvt.borderLess: false
+
 urxvt.saveLines: 1000
 
 ! Terminal
