@@ -1,5 +1,9 @@
 ! Perl extensions
-urxvt.perl-ext-common: resize-font
+urxvt.perl-ext-common: resize-font,default,matcher
+
+! clickable URLs
+urxvt.url-launcher: /usr/bin/firefox
+urxvt.matcher.button: 1
 
 ! manipulate font sizes
 urxvt.keysym.C-Up:     resize-font:bigger
