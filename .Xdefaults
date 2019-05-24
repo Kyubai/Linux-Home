@@ -1,5 +1,7 @@
 ! Fonts
 urxvt.font: xft:Inconsolata:pixelsize=14
+! urxvt.font:  -xos4-terminus-medium-*-*-*-14-*-*-*-*-*-iso8859-15,xft:terminus:pixelsize:1
+! urxvt.font: xft:Terminus
 urxvt.letterSpace: -1
 
 ! ScrollBar
@@ -43,3 +45,6 @@ urxvt.color14:	#54ffff
 ! white
 urxvt.color7:	#b2b2b2
 urxvt.color15:	#ffffff
+! underlined
+urxvt.colorUL: yellow
+urxvt.underlineColor: yellow
