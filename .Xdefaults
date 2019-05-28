@@ -5,8 +5,8 @@ urxvt.font: xft:Inconsolata:pixelsize=14
 urxvt.letterSpace: -1
 
 ! ScrollBar
-urxvt.scrollBar: true
-urxvt.scrollBar_right: true
+urxvt.scrollBar: false
+urxvt.scrollBar_right: false
 urxvt.scrollColor: Black
 urxvt.scrollBar_floating: false
 urxvt.scrollstyle: plain
@@ -18,8 +18,10 @@ urxvt.borderLess: false
 
 urxvt.saveLines: 1000
 
+urxvt.underlineColor: yellow
+
 ! Terminal
-urxvt.background: #000000
+urxvt.background: #161616
 urxvt.foreground: #b2b2b2
 ! black
 urxvt.color0: 	#000000
@@ -44,7 +46,4 @@ urxvt.color6:	#18b2b2
 urxvt.color14:	#54ffff
 ! white
 urxvt.color7:	#b2b2b2
-urxvt.color15:	#ffffff
-! underlined
-urxvt.colorUL: yellow
-urxvt.underlineColor: yellow
+urxvt.color15: #ffffff

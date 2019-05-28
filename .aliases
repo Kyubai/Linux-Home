@@ -9,6 +9,10 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='grep -e --color=auto'
 
+alias L='|less'
+alias G='|grep -i'
+alias NE='2> /dev/null'
+
 # applications
-alias telegram='telegram-desktop'
+alias em='emacsclient -nw'
 alias vbox='virtualbox'
