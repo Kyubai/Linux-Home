@@ -1,3 +1,4 @@
+# common aliases for CLI tools
 alias ls='ls --color=auto'
 alias ll='ls -l --color=auto'
 alias la='ls -a --color=auto'
@@ -9,10 +10,25 @@ alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
 alias egrep='grep -e --color=auto'
 
+# aliases for keyboard layout
+alias de='setxkbmap de'
+alias us='setxkbmap us'
+
+# aliases for common pipes
 alias L='|less'
 alias G='|grep -i'
-alias NE='2> /dev/null'
+alias NE='> /dev/null'
 
-# applications
+# more uncommon aliases for CLI tools
+alias agu='apt-get update'
+alias agi='apt-get install -y'
+alias agg='apt-get upgrade'
+
+alias dc='docker container'
+alias dp='docker ps'
+alias di='docker image'
+alias dv='docker volume'
+
+# aliases for applications
 alias em='emacsclient -nw'
 alias vbox='virtualbox'

@@ -12,13 +12,14 @@ setopt auto_menu
 setopt always_to_end
 
 autoload -U colors && colors
-export PROMPT="%{$fg[cyan]%}%n@%M%{$reset_color%} %{$fg[blue]%}[%~] %{$reset_color%}"
+export PROMPT="%{$fg[cyan]%}%n@%M%{$reset_color%}:%{$fg[blue]%}[%~] %{$reset_color%}"
 
 # load zsh plugins
 source ~/.zplug/init.zsh
 zplug "plugins/colored-man-pages", from:oh-my-zsh, as:plugin
 zplug "zsh-users/zsh-syntax-highlighting"
 zplug "zsh-users/zsh-autosuggestions"
+zplug "plugins/docker", from:oh-my-zsh
 # bind arrow up and arrow down to history substring search
 zplug "zsh-users/zsh-history-substring-search"
 bindkey '^[[A' history-substring-search-up
