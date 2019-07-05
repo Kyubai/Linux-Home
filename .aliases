@@ -8,22 +8,18 @@ alias vdir='vdir --color=auto'
 
 alias grep='grep --color=auto'
 alias fgrep='fgrep --color=auto'
-alias egrep='grep -e --color=auto'
+alias egrep='grep -e --color=auto' # the real egrep is deprecated anyways
 
 # aliases for keyboard layout
 alias de='setxkbmap de'
 alias us='setxkbmap us'
-
-# aliases for common pipes
-alias L='|less'
-alias G='|grep -i'
-alias NE='> /dev/null'
 
 # more uncommon aliases for CLI tools
 alias agu='apt-get update'
 alias agi='apt-get install -y'
 alias agg='apt-get upgrade'
 
+# aliases for docker
 alias dc='docker container'
 alias dp='docker ps'
 alias di='docker image'
