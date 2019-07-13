@@ -14,11 +14,6 @@ alias egrep='grep -e --color=auto' # the real egrep is deprecated anyways
 alias de='setxkbmap de'
 alias us='setxkbmap us'
 
-# more uncommon aliases for CLI tools
-alias agu='apt-get update'
-alias agi='apt-get install -y'
-alias agg='apt-get upgrade'
-
 # aliases for docker
 alias dc='docker container'
 alias dp='docker ps'

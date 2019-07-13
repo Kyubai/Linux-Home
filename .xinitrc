@@ -1,1 +1,1 @@
-exec i3
+exec /usr/bin/i3
