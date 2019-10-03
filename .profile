@@ -1,3 +1,3 @@
-if [ -f ~/.zprofile ]; then
-	. ~/.zprofile
-fi
+# if [ -f ~/.zprofile ]; then
+	# . ~/.zprofile
+# fi
