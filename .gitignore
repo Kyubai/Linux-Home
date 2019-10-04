@@ -15,6 +15,9 @@ OneDrive
 .config/systemd
 .config/Trolltech.conf
 .config/keepassx
+.config/discord
 .python_history
 .tldr
 .gitconfig
+.lesshst
+.pki

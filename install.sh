@@ -1,8 +1,8 @@
 #!/bin/sh
 # environment and "essential" cli tools
-apt-get install -y vim zsh i3 emacs firefox-esr unzip xpdf curl python-pip xclip scrot tldr feh
+apt-get install -y vim zsh i3 emacs firefox-esr unzip curl python-pip xclip tldr zip
 # applications
-apt-get install -y keepassx
+apt-get install -y keepassx maim feh xpdf
 # security stuff
 apt-get install -y nikto gobuster nmap
 
@@ -24,3 +24,8 @@ fi
 # find /usr/share/emacs/.../emacs.service
 # copy to ~/.config/systemd/user/emacs.service
 # systemctl enable --user emacs.service
+
+# add urxvtd to crontab @reboot
+
+# install discord:
+# https://discordapp.com/download
