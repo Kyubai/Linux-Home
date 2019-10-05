@@ -1,6 +1,6 @@
 #!/bin/sh
 # environment and "essential" cli tools
-apt-get install -y vim zsh i3 emacs firefox-esr unzip curl python-pip xclip tldr zip
+apt-get install -y vim zsh i3 emacs firefox-esr unzip curl python-pip xclip tldr zip awk
 # applications
 apt-get install -y keepassx maim feh xpdf
 # security stuff
@@ -16,16 +16,17 @@ if [ ! -e /usr/bin/docker ]; then
 	curl https://get.docker.com | /bin/sh
 fi
 
-# do these to finalize
+if [ ! -e /usr/share/zplug ]; then
+  git clone https://github.com/zplug/zplug /usr/share/zplug
+  source /usr/share/zplug/init.zsh
+fi
+zplug install
+
+systemctl enable --user emacs.service
+
+# change /etc/passwd to use /bin/zsh
+# add urxvtd to crontab @reboot
 
 # get OneDrive cloud https://github.com/abraunegg/onedrive
 
-# add emacs to systectl:
-# find /usr/share/emacs/.../emacs.service
-# copy to ~/.config/systemd/user/emacs.service
-# systemctl enable --user emacs.service
-
-# add urxvtd to crontab @reboot
-
-# install discord:
-# https://discordapp.com/download
+# get Discord https://discordapp.com/download

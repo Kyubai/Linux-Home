@@ -2,8 +2,8 @@ if [ -f ~/.aliases ]; then
     . ~/.aliases
 fi
 
-HISTSIZE=1000
-HISTFILESIZE=2000
+HISTSIZE=10000
+HISTFILESIZE=20000
 
 setopt auto_cd
 setopt correct_all
@@ -15,16 +15,16 @@ autoload -U colors && colors
 export PROMPT="%{$fg[cyan]%}%n@%M%{$reset_color%}:%{$fg[blue]%}[%~] %{$reset_color%}"
 
 # load zsh plugins
-# source ~/.zplug/init.zsh
-# zplug "plugins/colored-man-pages", from:oh-my-zsh, as:plugin
-# zplug "zsh-users/zsh-syntax-highlighting"
-# zplug "zsh-users/zsh-autosuggestions"
-# zplug "plugins/docker", from:oh-my-zsh
+source /usr/share/zplug/init.zsh
+zplug "plugins/colored-man-pages", from:oh-my-zsh, as:plugin
+zplug "zsh-users/zsh-syntax-highlighting"
+zplug "zsh-users/zsh-autosuggestions"
+zplug "plugins/docker", from:oh-my-zsh
 # bind arrow up and arrow down to history substring search
-# zplug "zsh-users/zsh-history-substring-search"
-# bindkey '^[[A' history-substring-search-up
-# bindkey '^[[B' history-substring-search-down
-# zplug load
+zplug "zsh-users/zsh-history-substring-search"
+bindkey '^[[A' history-substring-search-up
+bindkey '^[[B' history-substring-search-down
+zplug load
 
 # enable tab completion
 autoload -Uz compinit
