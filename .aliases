@@ -1,7 +1,7 @@
 # common aliases for CLI tools
 alias ls='ls --color=auto'
-alias ll='ls -l --color=auto'
 alias la='ls -a --color=auto'
+alias ll='ls -la --color=auto'
 
 alias dir='dir --color=auto'
 alias vdir='vdir --color=auto'
@@ -13,6 +13,11 @@ alias egrep='grep -e --color=auto' # the real egrep is deprecated anyways
 # aliases for keyboard layout
 alias de='setxkbmap de'
 alias us='setxkbmap us'
+
+# aliases for git
+alias gs='git status'
+alias ga='git add'
+alias gc='git clone'
 
 # aliases for docker
 alias dc='docker container'

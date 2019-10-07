@@ -1,6 +1,6 @@
 #!/bin/sh
 # environment and "essential" cli tools
-apt-get install -y vim zsh i3 emacs firefox-esr unzip curl python-pip xclip tldr zip awk
+apt-get install -y vim zsh i3 emacs firefox-esr unzip curl python-pip xclip tldr zip awk sudo
 # applications
 apt-get install -y keepassx maim feh xpdf
 # security stuff
@@ -18,11 +18,11 @@ fi
 
 if [ ! -e /usr/share/zplug ]; then
   git clone https://github.com/zplug/zplug /usr/share/zplug
-  source /usr/share/zplug/init.zsh
+  /bin/bash -c "source /usr/share/zplug/init.zsh; zplug install"
 fi
-zplug install
 
 systemctl enable --user emacs.service
+systemctl enable --user docker.service
 
 # change /etc/passwd to use /bin/zsh
 # add urxvtd to crontab @reboot
