@@ -2,7 +2,7 @@
 # environment and "essential" cli tools
 apt-get install -y vim zsh i3 emacs firefox-esr unzip curl python-pip xclip tldr zip awk sudo
 # applications
-apt-get install -y keepassx maim feh xpdf
+apt-get install -y keepassx maim feh xpdf gimp
 # security stuff
 apt-get install -y nikto gobuster nmap
 
