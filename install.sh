@@ -4,7 +4,7 @@ apt-get install -y vim zsh i3 emacs firefox-esr unzip curl python-pip xclip tldr
 # applications
 apt-get install -y keepassx maim feh xpdf gimp
 # security stuff
-apt-get install -y nikto gobuster nmap
+apt-get install -y nikto gobuster nmap hydra
 
 # get spacemacs
 if [ ! -e ~/.emacs.d ]; then
