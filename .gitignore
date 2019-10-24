@@ -17,6 +17,19 @@ OneDrive
 .config/discord
 .config/systemd/user/default.target.wants
 .config/systemd/user/multi-user.target.wants
+.config/GIMP
+.config/QtProject.conf
+.config/VirtualBox
+.config/dconf
+.config/gtk-2.0
+.java
+.matlab
+.wget-hsts
+VirtualBox VMs
+Wordlists
+Writeup
+Docker
+Pictures
 .python_history
 .tldr
 .gitconfig
@@ -25,3 +38,4 @@ OneDrive
 .dmenu_cache
 .selected_editor
 .ssh
+.cat_installer

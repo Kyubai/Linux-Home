@@ -1,8 +1,8 @@
 #!/bin/sh
 # environment and "essential" cli tools
-apt-get install -y vim zsh i3 emacs firefox-esr unzip curl python-pip xclip tldr zip awk sudo
+apt-get install -y vim zsh i3 emacs firefox-esr unzip curl python-pip xclip tldr zip gawk sudo net-tools netdiscover hexedit
 # applications
-apt-get install -y keepassx maim feh xpdf gimp
+apt-get install -y keepassx maim feh xpdf gimp texlive-latex-extra
 # security stuff
 apt-get install -y nikto gobuster nmap hydra
 
