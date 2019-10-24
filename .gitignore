@@ -22,6 +22,7 @@ OneDrive
 .config/VirtualBox
 .config/dconf
 .config/gtk-2.0
+.config/wireshark
 .java
 .matlab
 .wget-hsts
