@@ -17,6 +17,7 @@ OneDrive
 .config/discord
 .config/systemd/user/default.target.wants
 .config/systemd/user/multi-user.target.wants
+.config/libreoffice/
 .config/GIMP
 .config/QtProject.conf
 .config/VirtualBox
@@ -40,3 +41,4 @@ Pictures
 .selected_editor
 .ssh
 .cat_installer
+.recently-used

@@ -8,7 +8,7 @@ floating_modifier $mod
 
 bindsym $mod+Print exec "maim -us ~/Pictures/Linux-$(date -Iseconds | cut -d'+' -f1).png"
 bindsym Print exec "maim -us | xclip -selection clipboard -t image/png"
-bindsym $mod+p exec "i3lock -i ~/OneDrive/Content/Pics/cats/cat403lock.png"
+bindsym $mod+p exec "i3lock -i ~/OneDrive/Content/Pics/cats/catmathlock.png"
 
 bindsym $mod+Return exec urxvtc
 bindsym $mod+Shift+q kill
