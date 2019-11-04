@@ -1,5 +1,5 @@
 #export environment variables used by other programs
-export PATH="$PATH:~/scripts:/bin"
+export PATH="$PATH:~/scripts:/bin:/usr/games"
 export EDITOR="vim"
 export BROWSER="firefox"
 export LANG="en_US.UTF-8"
