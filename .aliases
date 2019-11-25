@@ -33,3 +33,5 @@ alias dv='docker volume'
 
 # aliases for applications
 alias em='emacsclient -nw'
+alias vim='nvim'
+alias vi='nvim'

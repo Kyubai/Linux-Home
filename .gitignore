@@ -24,6 +24,10 @@ OneDrive
 .config/dconf
 .config/gtk-2.0
 .config/wireshark
+.config/htop
+.config/xfce4
+.sqlmap/
+.urxvt/
 .java
 .matlab
 .wget-hsts

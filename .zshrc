@@ -22,6 +22,7 @@ zplug "zsh-users/zsh-syntax-highlighting"
 zplug "zsh-users/zsh-autosuggestions"
 zplug "plugins/docker", from:oh-my-zsh
 zplug "djui/alias-tips"
+
 # bind arrow up and arrow down to history substring search !!! Needs to be loaded after zsh-syntax-highlighting!!!
 zplug "zsh-users/zsh-history-substring-search"
 bindkey '^[[A' history-substring-search-up
