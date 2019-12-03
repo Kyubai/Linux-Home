@@ -7,7 +7,7 @@ xterm*VT100.Translations: #override \
                  Ctrl Shift <Key>C:    copy-selection(CLIPBOARD)
 
 ! Fonts
-XTerm.VT100.faceName: xft:Inconsolata:pixelsize=16
+XTerm.VT100.faceName: xft:Inconsolata:pixelsize=19
 ! urxvt.font:  -xos4-terminus-medium-*-*-*-14-*-*-*-*-*-iso8859-15,xft:terminus:pixelsize:1
 ! urxvt.font: xft:Terminus
 

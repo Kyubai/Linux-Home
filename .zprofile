@@ -4,6 +4,7 @@ export EDITOR="nvim"
 export BROWSER="firefox"
 export LANG="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
+export JAVA_HOME=$(readlink -f /usr/bin/javac | sed "s:/bin/javac::")
 
 # eval $(ssh-agent)
 # autoload -U colors && colors
