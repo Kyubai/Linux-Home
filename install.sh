@@ -10,11 +10,13 @@ apt-get install -y tldr
 apt-get install -y gawk
 apt-get install -y net-tools netdiscover sudo
 apt-get install -y xorg network-manager
+apt-get install -y ascii
+apt-get install -y gdb strace
 # applications
 apt-get install -y keepassx maim feh xpdf gimp texlive-latex-extra
 apt-get install -y telegram-desktop
 # security stuff
-apt-get install -y gobuster nmap hydra sqlmap crunch
+apt-get install -y gobuster nmap hydra sqlmap crunch nikto
 
 # get spacemacs
 if [ ! -e ~/.emacs.d ]; then

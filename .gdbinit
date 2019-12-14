@@ -1,4 +1,4 @@
-source /var/lib/peda/peda.py # you can find peda on Github
+source ~/peda/peda.py
 set disassembly-flavor intel
 define hook-stop
 x/i $rip

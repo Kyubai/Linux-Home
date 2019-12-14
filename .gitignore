@@ -26,6 +26,7 @@ OneDrive
 .config/wireshark
 .config/htop
 .config/xfce4
+.config/sqlitebrowser/
 .sqlmap/
 .urxvt/
 .java
@@ -49,3 +50,10 @@ Pictures
 .anyconnect
 Machines/
 .autopsy/
+.ghidra/
+.pwntools-cache/
+Security/
+VMs/
+module-signing/
+peda/
+writeup/
