@@ -57,3 +57,10 @@ VMs/
 module-signing/
 peda/
 writeup/
+dumps/
+.vscode/
+.mplayer/
+.gnome2/
+.config/vlc
+.config/pulse
+usbackup.tar.gz

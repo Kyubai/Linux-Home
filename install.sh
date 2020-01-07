@@ -8,12 +8,12 @@ apt-get install -y python-pip
 apt-get install -y xclip
 apt-get install -y tldr
 apt-get install -y gawk
-apt-get install -y net-tools netdiscover sudo
+apt-get install -y net-tools netdiscover sudo alsa-utils
 apt-get install -y xorg network-manager
 apt-get install -y ascii
-apt-get install -y gdb strace
+apt-get install -y gdb strace exiv2
 # applications
-apt-get install -y keepassx maim feh xpdf gimp texlive-latex-extra
+apt-get install -y keepassx maim feh xpdf gimp texlive-latex-extra vlc
 apt-get install -y telegram-desktop
 # security stuff
 apt-get install -y gobuster nmap hydra sqlmap crunch nikto
@@ -37,8 +37,6 @@ systemctl enable --user emacs.service
 systemctl enable --user docker.service
 
 # change /etc/passwd to use /bin/zsh
-# add urxvtd to crontab @reboot
-
 # get OneDrive cloud https://github.com/abraunegg/onedrive
-
 # get Discord https://discordapp.com/download
+# get Visual Studio Code

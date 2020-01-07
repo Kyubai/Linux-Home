@@ -8,7 +8,7 @@ floating_modifier $mod
 
 bindsym $mod+Print exec "maim -us ~/Pictures/Linux-$(date -Iseconds | cut -d'+' -f1).png"
 bindsym Print exec "maim -us | xclip -selection clipboard -t image/png"
-bindsym $mod+p exec "maim -u ~/Pictures/Lockscreen.png && i3lock --no-unlock-indicator -i ~/Pictures/Lockscreen.png -p win"
+bindsym $mod+p exec "maim -u ~/Pictures/Lockscreen.png && i3lock --no-unlock-indicator -t -i ~/Pictures/Lockscreen.png -p win"
 # bindsym $mod+p exec "i3lock --no-unlock-indicator -i ~/Pictures/test"
 bindsym $mod+i exec "/root/scripts/change_layout.sh"
 bindsym $mod+o exec "/root/scripts/turn180.sh"
