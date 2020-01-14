@@ -1,0 +1,21 @@
+! Perl extensions
+urxvt.perl-ext-common: resize-font,default,matcher
+
+! clickable URLs
+urxvt.url-launcher: /usr/bin/firefox
+urxvt.matcher.button: 1
+
+! manipulate font sizes
+urxvt.keysym.C-Up:     resize-font:bigger
+urxvt.keysym.C-Down:   resize-font:smaller
+urxvt.keysym.C-S-Up:   resize-font:incglobal
+urxvt.keysym.C-S-Down: resize-font:decglobal
+urxvt.keysym.C-slash:  resize-font:reset
+urxvt.keysym.C-question:  resize-font:show
+
+! does not work properly
+urxvt.print-pipe: cat > $HOME/Pictures/$(echo urxvt_screen_$(date +'%Y_%m_%d_%H_%m_%S'))
+
+! disable useless features
+urxvt.iso14755: false
+urxvt.iso14755_52: false

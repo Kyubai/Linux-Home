@@ -1,0 +1,3 @@
+# m h  dom mon dow   command
+0 * * * * /root/scripts/backup.sh >> /root/crontab.log
+0 * * * * /root/scripts/backuphome.sh >> /root/crontab.log

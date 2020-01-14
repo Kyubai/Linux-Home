@@ -1,0 +1,23 @@
+# exclude everything, whitelisting only
+*
+
+# folders
+!.config/
+!.config/*
+!.config/i3/*
+
+!scripts/
+!scripts/*
+
+# dotfiles
+!.*profile
+!.*rc
+!.aliases
+!.gitignore
+!.gdbinit
+!.X*
+
+# other files
+!crontab
+!install.sh
+
