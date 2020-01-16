@@ -41,3 +41,4 @@ systemctl enable --user docker.service
 # get OneDrive cloud https://github.com/abraunegg/onedrive
 # get Discord https://discordapp.com/download
 # get Visual Studio Code
+# get Burp
