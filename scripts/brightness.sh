@@ -16,6 +16,8 @@ if [ $1 -eq 0 ]; then
     DIRECTION=-1
 fi
 
+# LSD mode, activate with caution
+# NEWBRIGHTNESS=$(/usr/bin/python -c "print($BRIGHTNESS + $DIRECTION * 0.1)")
 NEWBRIGHTNESS=$(/usr/bin/python -c "print(abs($BRIGHTNESS + $DIRECTION * 0.1))")
 /usr/bin/xrandr --output $MONITOR --brightness $NEWBRIGHTNESS
 /usr/bin/echo $NEWBRIGHTNESS > /root/.brightness
