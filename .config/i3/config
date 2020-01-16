@@ -12,6 +12,8 @@ bindsym $mod+p exec "maim -u ~/Pictures/screens/Lockscreen.png && i3lock --no-un
 # bindsym $mod+p exec "i3lock --no-unlock-indicator -i ~/Pictures/test"
 bindsym $mod+i exec "/root/scripts/change_layout.sh"
 bindsym $mod+o exec "/root/scripts/turn180.sh"
+bindsym XF86MonBrightnessDown exec "/root/scripts/brightness.sh 0"
+bindsym XF86MonBrightnessUp exec "/root/scripts/brightness.sh 1"
 
 bindsym $mod+Return exec "xterm"
 bindsym $mod+Shift+q kill
