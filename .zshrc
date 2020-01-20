@@ -17,10 +17,14 @@ export PROMPT="%{$fg[cyan]%}%n@%M%{$reset_color%}:%{$fg[blue]%}[%~] %{$reset_col
 # load zsh plugins
 source /usr/share/zplug/init.zsh
 zplug "zplug/zplug", hook-build:"zplug --self-manage"
-zplug "plugins/colored-man-pages", from:oh-my-zsh, as:plugin
+zplug "plugins/colored-man-pages", from:oh-my-zsh
+zplug "plugins/command-not-found", from:oh-my-zsh
+zplug "plugins/docker", from:oh-my-zsh
+# zplug "plugins/git-auto-fetch", from:oh-my-zsh
+# zplug "plugins/git-prompt", from:oh-my-zsh
+zplug "plugins/gitfast", from:oh-my-zsh
 zplug "zsh-users/zsh-syntax-highlighting"
 zplug "zsh-users/zsh-autosuggestions"
-zplug "plugins/docker", from:oh-my-zsh
 zplug "djui/alias-tips"
 
 # bind arrow up and arrow down to history substring search !!! Needs to be loaded after zsh-syntax-highlighting!!!
