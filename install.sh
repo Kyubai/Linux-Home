@@ -14,7 +14,7 @@ apt-get install -y ascii
 apt-get install -y gdb strace exiv2
 apt-get install -y secure-delete
 # applications
-apt-get install -y keepassx maim feh xpdf gimp texlive-latex-extra fswebcam
+apt-get install -y keepassx maim feh xpdf gimp texlive-latex-extra fswebcam imagemagick
 apt-get install -y telegram-desktop
 # security stuff
 apt-get install -y gobuster nmap hydra sqlmap crunch nikto
