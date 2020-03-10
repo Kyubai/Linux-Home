@@ -34,5 +34,5 @@ alias dv='docker volume'
 # aliases for applications
 alias em='emacsclient -nw'
 alias nvim='nvim -u .vimrc'
-alias python='python3'
-alias py='python'
+# alias python='python3'
+# alias py='python2'

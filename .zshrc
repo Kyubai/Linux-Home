@@ -2,19 +2,24 @@ if [ -f ~/.aliases ]; then
     . ~/.aliases
 fi
 
-HISTSIZE=10000
-HISTFILESIZE=20000
-
-
 setopt auto_cd
-setopt correct_all
+setopt correct
+# setopt correct_all
 setopt auto_list
 setopt auto_menu
 setopt always_to_end
-# setopt sharehistory
+setopt sharehistory
+setopt incappendhistory
+setopt histignoredups
+setopt histignorespace
+
 
 autoload -U colors && colors
 export PROMPT="%{$fg[cyan]%}%n@%M%{$reset_color%}:%{$fg[blue]%}[%~] %{$reset_color%}"
+
+export PROMPT_COMMAND="fc -IR"
+
+precmd() { eval "$PROMPT_COMMAND" }
 
 # load zsh plugins
 source /usr/share/zplug/init.zsh
