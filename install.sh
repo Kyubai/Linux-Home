@@ -13,6 +13,7 @@ apt-get install -y xorg network-manager
 apt-get install -y ascii
 apt-get install -y gdb strace exiv2
 apt-get install -y secure-delete
+apt-get install -y expect
 # applications
 apt-get install -y keepassx maim feh xpdf gimp texlive-latex-extra fswebcam imagemagick
 apt-get install -y telegram-desktop
