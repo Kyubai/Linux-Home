@@ -17,9 +17,9 @@ setopt histignorespace
 autoload -U colors && colors
 export PROMPT="%{$fg[cyan]%}%n@%M%{$reset_color%}:%{$fg[blue]%}[%~] %{$reset_color%}"
 
-export PROMPT_COMMAND="fc -IR"
+# export PROMPT_COMMAND="fc -IR"
 
-precmd() { eval "$PROMPT_COMMAND" }
+# precmd() { eval "$PROMPT_COMMAND" }
 
 # load zsh plugins
 source /usr/share/zplug/init.zsh
