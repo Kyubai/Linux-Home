@@ -5,11 +5,13 @@ fi
 HISTSIZE=10000
 HISTFILESIZE=20000
 
+
 setopt auto_cd
 setopt correct_all
 setopt auto_list
 setopt auto_menu
 setopt always_to_end
+# setopt sharehistory
 
 autoload -U colors && colors
 export PROMPT="%{$fg[cyan]%}%n@%M%{$reset_color%}:%{$fg[blue]%}[%~] %{$reset_color%}"

@@ -7,6 +7,11 @@ export LC_ALL="en_US.UTF-8"
 export JAVA_HOME=$(readlink -f /usr/bin/javac | sed "s:/bin/javac::")
 export MATLAB_PREFDIR="/usr/local/MATLAB"
 
+export HISTSIZE=10000
+export HISTFILESIZE=20000
+export SAVEHIST=10000
+export HISTFILE="/root/.zhistory"
+
 # eval $(ssh-agent)
 # autoload -U colors && colors
 # export PROMPT="%{$fg[cyan]%}%n@%M%{$reset_color%} %{$fg[blue]%}[%~] %{$reset_color%}"
