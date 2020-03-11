@@ -13,6 +13,10 @@ setopt incappendhistory
 setopt histignoredups
 setopt histignorespace
 
+export HISTSIZE=10000
+export SAVEHIST=10000
+export HISTFILESIZE=20000
+export HISTFILE="/root/.zhistory"
 
 autoload -U colors && colors
 export PROMPT="%{$fg[cyan]%}%n@%M%{$reset_color%}:%{$fg[blue]%}[%~] %{$reset_color%}"
