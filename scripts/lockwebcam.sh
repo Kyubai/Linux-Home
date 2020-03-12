@@ -13,7 +13,10 @@ while true; do
 		fswebcam -r 1280x720 -S 30 --no-banner /root/Pictures/webcam/$(echo $DATE).jpg
 		gm convert /root/Pictures/webcam/$(echo $DATE).jpg -resize 1920x1080 /root/Pictures/webcam/$(echo $DATE).png
 		rm /root/Pictures/webcam/$(echo $DATE).jpg
-		pkill i3lock
+        # uncomment this to enable changing pictures
+        # !!!NOT SAFE
+		# pkill i3lock
+        sleep 1
 		i3lock --no-unlock-indicator -i /root/Pictures/webcam/$(echo $DATE).png -p win
 	fi
 	sleep 1
