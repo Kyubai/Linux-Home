@@ -1,6 +1,6 @@
 from PyPDF2 import PdfFileMerger
 
-pdfs = ['coverletter.pdf', 'lebenslauf.pdf']
+pdfs = ['BA.pdf', 'Bild.png']
 
 merger = PdfFileMerger()
 
