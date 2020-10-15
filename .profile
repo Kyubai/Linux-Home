@@ -14,7 +14,7 @@ export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
 export HISTSIZE=0
 export SAVEHIST=10000
 export HISTFILESIZE=20000
-export HISTFILE="~/.zhistory"
+export HISTFILE="/home/riegel/.history"
 
 # eval $(ssh-agent)
 # autoload -U colors && colors
