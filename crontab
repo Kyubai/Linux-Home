@@ -1,2 +1,2 @@
 # m h dom mon dow command
-* * * * * sudo /home/riegel/scripts/backuphome.sh >> /home/riegel/log/crontab.log
+0 * * * * sudo /home/riegel/scripts/backuphome.sh >> /home/riegel/log/crontab.log

@@ -13,9 +13,6 @@ alias egrep='grep -e --color=auto' # the real egrep is deprecated anyways
 # alias for brightness
 alias b='xrandr --output eDP-1 --brightness'
 
-# aliases for servers
-alias -g ionos='82.165.124.68'
-
 # aliases for keyboard layout
 alias de='setxkbmap de'
 alias us='setxkbmap us'
