@@ -10,8 +10,8 @@ export GTK2_RC_FILES="$HOME/.gtkrc-2.0"
 # export JAVA_HOME=$(readlink -f /usr/bin/javac | sed "s:/bin/javac::")
 # export MATLAB_PREFDIR="/usr/local/MATLAB"
 
+export HISTSIZE=10000
 # export HISTSIZE=10000
-export HISTSIZE=0
 export SAVEHIST=10000
 export HISTFILESIZE=20000
 export HISTFILE="/home/riegel/.history"
