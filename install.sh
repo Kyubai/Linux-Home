@@ -1,27 +1,31 @@
 #!/bin/sh
 
-#TODO uname -a for kernel version
-#edit sudoers
-kernel=58
+#TODO:
+# uname -a for kernel version
 
-pacman -Syu
+kernel="58"
+# pacman_vboxhost="virtualbox linux$kernel-virtualbox-host-modules virtualbox-host-dkms"
+pacman_vboxguest="virtualbox-guest-utils"
+pacman_essentials="net-tools base-devel vim linux$kernel-headers"
+pacman_linuxtools="firefox keepass ffmpeg zip unzip v412loopback-dmks ethtool pulseaudio pulseaudio-alsa pavucontrol proxychains chromium nautilus"
+pacman_sectools="dc3dd dislocker libbde crackmapexec impacket bloodhound metasploit hashcat seclists burpsuite libpff chisel"
 
+pacman -Syu --noconfirm
+
+# get blackarch repos
 cd ~/Downloads
 curl -O https://blackarch.org/strap.sh
 chmod +x strap.sh
 ./strap.sh
 
-pacman -S net-tools base-devel --noconfirm
-pacman -S vim --noconfirm
-pacman -S virtualbox firefox linux$kernel-headers linux$kernel-virtualbox-host-modules virtualbox-host-dkms virtualbox-guest-utils --noconfirm
-pacman -S keepass unzip ffmpeg v4l2loopback-dkms ethtool --noconfirm
-pacman -S burpsuite proxychains chromium --noconfirm
-pacman -S crackmapexec pulseaudio pulseaudio-alsa pavucontrol impacket bloodhound metasploit --noconfirm
+pacman -S $pacman_vboxhost $pacman_vboxguest $pacman_essentials $pacman_sectools --noconfirm
 
 git config --global user.email "mrkyubai@gmail.com"
 git config --global user.name "kyubai"
 
 
+# TODO:
+# edit sudoers
 
 
 # change user
