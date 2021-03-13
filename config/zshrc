@@ -1,0 +1,20 @@
+if [[ -f ~/.aliases ]]; then
+	. ~/.aliases
+fi
+
+# Lines configured by zsh-newuser-install
+export PATH=/usr/local/sbin:/usr/local/bin:/usr/bin:/home/riegel/verriegelt/linux_tools
+
+HISTFILE=~/.histfile
+HISTSIZE=1000
+SAVEHIST=1000
+setopt autocd extendedglob
+unsetopt beep
+bindkey -v
+# End of lines configured by zsh-newuser-install
+# The following lines were added by compinstall
+zstyle :compinstall filename '/home/riegel/.zshrc'
+
+autoload -Uz compinit
+compinit
+# End of lines added by compinstall
